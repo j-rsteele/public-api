@@ -1,0 +1,57 @@
+* {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;
+    color: rgb(228, 228, 50);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h4 {
+    display: inline-block;
+    padding-right: 2px;
+    margin-left: 0px;
+    color: rgb(228, 228, 50);
+}
+
+button {
+    background-color: black;
+    flex-direction: row;
+    align-items: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 100px 20px 560px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+    color:blanchedalmond;
+}
+
+p,
+#shipText{
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+#characters,
+#films,
+#ships {
+    margin: 0px 150px 70px 150px;
+}
+
+p,
+.text {
+    font-size: 17px;
+    color:rgb(252, 242, 228);
+
+}

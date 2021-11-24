@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>Public Api</title>
+</head>
+<body>
+    <header>
+    <h1>Star Wars API</h1>
+    </header>
+
+    <div id="buttons">
+    <button id="filmsButton" onclick="getStarWarsFilms()">Films</button>
+    <button id="starShipsButton" onclick="getStarShips()">Star Ships</button>
+    <button id="charactersButton" onclick="getCharacters()">Characters</button>
+    </div>
+
+
+            <div id="films"></div>
+            <div id="ships"></div>
+            <div id="characters"></div>
+
+
+    <script src="/src/js/app.js"></script>
+</body>
+</html>
