@@ -59,6 +59,10 @@ function getStarShips(){
 }
 
 
+function SetupNavbar(){
+    let 
+}
+
 
 
 
